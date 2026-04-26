@@ -12,6 +12,8 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-theme-aurora luci-app-aurora-config luci-
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES bandix luci-app-bandix luci-i18n-bandix-zh-cn"
 #添加CX5驱动
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-mlx5-core"
+#添加qemu-ga
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES qemu-ga"
 # 代理相关apk
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-nikki-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-openvpn-server luci-i18n-openvpn-server-zh-cn"
